@@ -36,7 +36,7 @@ I always support projects and the quality of work.
 
 ## Languages ##
 
-* English(A2)
+* English (A2)
 
 
 ## Portfolio ##
