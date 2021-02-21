@@ -1,0 +1,166 @@
+body {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    max-width: 1160px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+
+.main-header {
+    display: flex;
+    padding: 70px 80px;
+    background-color: black;
+    color: #fff;
+}
+
+.main-header .pic {
+    max-width: 250px;
+    margin-right: 50px;
+
+}
+
+.main-header img {
+    border-radius: 50%;
+}
+
+.main-header h1 {
+    font-size: 40px;
+    margin: 0;
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+.main-header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.main-header a:hover, .content a:hover {
+    color: yellow;
+}
+
+.main-header .description p {
+    font-size: 22px;
+    font-weight: 300;
+
+}
+
+.main-header .description .item {
+    margin: 5px 0;
+}
+
+.content {
+    display: flex;
+    margin: 60px 0;
+}
+
+.content .heading-secondary {
+    text-transform: uppercase;
+    font-size: 28px;
+    overflow: hidden;
+    margin: 0;
+    flex-basis: 20%;
+    flex-shrink: 3;
+    color: rgb(54, 54, 54);
+    
+}
+
+.content .heading-secondary:before,
+.content .heading-secondary:after {
+	content: '';
+	display: inline-block;
+	vertical-align: middle;
+	box-sizing: border-box;
+	width: 100%;
+	height: 2px;
+	background: gray;
+	border: solid #FFF;
+	border-width: 0 30px;
+}
+.content .heading-secondary:before {
+	margin-left: -100%;
+}
+.content .heading-secondary:after {
+	margin-right: -100%;
+}
+
+.content .description {
+    margin-left: 50px;
+    margin-top: 10px;
+    width: 80%;
+}
+
+.content p {
+    max-width: 800px;
+    color: rgb(88, 88, 88);
+    margin: 0;
+}
+
+.content .list {
+    max-width: 520px;
+    color: rgb(88, 88, 88);
+    margin: 5px 0 15px;
+	padding: 0;
+}
+
+
+.content .list .item {
+    max-width: 520px;
+    color: rgb(88, 88, 88);
+    position: relative;
+	padding: 0 0 0 20px;
+}
+
+.content a {
+    color: rgb(88, 88, 88);
+}
+
+.content .list .item::before {
+    content: ""; 
+    position: absolute; 
+        left: 2px; 
+        top: 5px; 
+        width: 3px;
+        height: 6px;
+        border: solid #000;
+        border-width: 0 2px 2px 0;
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        transform: rotate(45deg);
+}
+
+.content h3 {
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.content h4 {
+    margin: 0;
+    margin-bottom: 25px;
+}
+
+.content.--education p {
+    margin: 10px 0 25px;
+}

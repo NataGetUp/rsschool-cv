@@ -1,3 +1,3 @@
 # rsschool-cv
 
-https://NataGetUp.github.io/rsschool-cv/cv
+https://NataGetUp.github.io/rsschool-cv/
