@@ -30,7 +30,7 @@ img {
 .main-header {
     display: flex;
     padding: 70px 80px;
-    background-color: black;
+    background-color: rgb(31, 30, 30);
     color: #fff;
 }
 
@@ -51,7 +51,7 @@ img {
     text-transform: uppercase;
 }
 
-.main-header a {
+.main-header a, .main-footer a {
     color: #fff;
     text-decoration: none;
 }
@@ -163,4 +163,19 @@ img {
 
 .content.--education p {
     margin: 10px 0 25px;
+}
+
+.main-footer {
+    padding: 20px 80px;
+    background-color: rgb(31, 30, 30);
+    color: #fff;
+}
+
+.main-footer ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-footer  {
+    font-size: 18px;
 }
